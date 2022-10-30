@@ -1,0 +1,69 @@
+Hi, this is Lavanya Aprameya, looking at your Assignment A6.
+At the end of this document is the output of our testing program and a table indicating
+the points for each part.
+
+To grade your submission, we ran it through an automated grading program. The result is
+shown below. The grades are broken up according to the assignment parts. You may be
+surprised that you have done better than you thought you did. That is because our grading
+program does not count off for errors that are the result of mistakes in a previous part. For
+example, if you made a lot of errors in Part B of ClusterGroup, but Part C would have
+worked perfectly had Part B been correct, then you got full credit for Part C.
+
+
+===========
+
+Start of testing of A6
+
+Max correctness points for Dataset: 16
+Does not enforce precondition on Dataset(1,[]). 0.5 pts deducted.
+Does not enforce precondition on ds.addPoint([1]); dimension is 5. 0.5 pts deducted
+End test of Dataset
+
+Max correctness points for Cluster (Part A): 14
+Does not enforce precondition on Cluster(0). 0.5 pts deducted.
+End test of Cluster (Part A)
+
+Max correctness points for Cluster (Part B): 18
+ds.updateCentroid() crashed when called. 3.0 pts. deducted.
+Traceback (most recent call last):
+  File "C:\Users\lapra\Downloads\Submissions\eb654\a6grade.py", line 474, in gradeClusterB
+    stable = cluster.updateCentroid()
+  File "C:\Users\lapra\Downloads\Submissions\eb654\a6.py", line 336, in updateCentroid
+    for t in range (0, len(self.getContents()[0])):
+IndexError: list index out of range
+End test of Cluster (Part B)
+
+Max correctness points for ClusterGroup (Part A): 10
+Does not enforce precondition on ClusterGroup(ds,1,[-1]). 0.5 pts deducted.
+ds.getClusters()[0] centroid is [0.6, 0.3, 0.2] but should be [0.4, 0.5, 0.4]. 0.5 pts deducted.
+ds.getClusters()[1] centroid is [0.4, 0.5, 0.4] but should be [0.8, 0.0, 0.1]. 0.5 pts deducted.
+ds.getClusters()[0] centroid is [0.4, 0.5, 0.4] but should be [0.8, 0.0, 0.1]. 0.5 pts deducted.
+ds.getClusters()[1] centroid is [0.6, 0.3, 0.2] but should be [0.4, 0.5, 0.4]. 0.5 pts deducted.
+ds.getClusters()[2] centroid is [0.2, 0.5, 0.3] but should be [0.6, 0.3, 0.2]. 0.5 pts deducted.
+End test of ClusterGroup (Part A)
+
+Max correctness points for ClusterGroup (Part B): 16
+End test of ClusterGroup (Part B)
+
+Max correctness points for ClusterGroup (Part C): 14
+End test of ClusterGroup (Part C)
+
+Max correctness points for ClusterGroup (Part D): 12
+cg.getCluster()[0].getCentroid() is [0.5020967741935481, 0.43790322580645163, 0.4282258064516129, 0.4580645161290323, 3.0632258064516127] but should be [0.81333333, 0.77833333, 0.21555555, 0.68833333, 3.94777777]. 0.5 pts deducted.
+cg.getCluster()[1].getCentroid() is [0.7416666666666666, 0.5070833333333332, 0.39083333333333337, 0.5791666666666665, 4.345416666666666] but should be [0.62846153, 0.21846153, 0.59, 0.38, 4.41461538]. 0.5 pts deducted.
+cg.getCluster()[2].getCentroid() is [0.5029545454545455, 0.6534090909090909, 0.535, 0.45681818181818196, 0.4618181818181819] but should be [0.51788235, 0.64752941, 0.56882352, 0.48152941, 0.95929411]. 0.5 pts deducted.
+cg.getCluster()[3].getCentroid() is [0.5277142857142857, 0.597857142857143, 0.5751428571428573, 0.5282857142857145, 1.725285714285714] but should be [0.49011904, 0.45273809, 0.47416666, 0.4895238, 2.6822619]. 0.5 pts deducted.
+End test of ClusterGroup (Part D)
+
+
+Dataset                 15 out of 16
+Cluster (Part A).     13.5 out of 14
+Cluster (Part B)        15 out of 18
+ClusterGroup (Part A)    7 out of 10
+ClusterGroup (Part B)   16 out of 16
+ClusterGroup (Part C)   14 out of 14
+ClusterGroup (Part D)   10 out of 12
+-----------------------------
+Total                 90.5 out of 100
+Deductions:
+Total                 90.5 out of 100

@@ -1,0 +1,1720 @@
+bplist00Ò_WebMainResource_WebSubresourcesÕ	
+_WebResourceMIMEType_WebResourceTextEncodingName_WebResourceFrameName^WebResourceURL_WebResourceDataYtext/htmlUUTF-8P_Bhttp://www.cs.cornell.edu/courses/cs1110/2016fa/lectures/index.phpO…~<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>CS 1110: Lectures</title>
+<link href="../css/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+
+<table align="left" width="900" border="0" id="bodyTable" cellspacing="0" cellpadding="0">
+<tbody><tr>
+	<td id="headerLeft">
+	<p>
+	T-Th 9:05<br>
+	or<br>
+	T-Th 11:15<br>
+	in Olin 155
+	</p>
+	</td>
+	<td id="headerRight" nowrap="">
+		<p id="title">CS 1110: Introduction to Computing Using Python</p>
+		<p id="term">Fall 2016</p>
+	</td>
+</tr>
+<tr>
+	<td id="navMenu"> 
+	<a href="../index.php">Main</a>
+	<hr>
+	<b>About:</b><br>
+	&nbsp;&nbsp;&nbsp;<a href="../announcements.php">Announcements</a><br>
+	&nbsp;&nbsp;&nbsp;<a href="../about/staff.php">Staff</a><br>
+	&nbsp;&nbsp;&nbsp;<a href="../about/consultants.php">Consultants</a><br>
+	&nbsp;&nbsp;&nbsp;<a href="../about/times.php">Times &amp; Places</a><br>	
+	&nbsp;&nbsp;&nbsp;<a href="../about/calendar.php">Calendar</a><br>
+	<hr>
+	<b>Materials:</b><br>
+	&nbsp;&nbsp;&nbsp;<a href="../materials/texts.php">Texts</a><br>	
+	&nbsp;&nbsp;&nbsp;<a href="../materials/python.php">Python</a><br>		
+	&nbsp;&nbsp;&nbsp;<a href="../materials/command.php">Command Shell</a><br>		
+	&nbsp;&nbsp;&nbsp;<a href="../materials/definitions.php">Terminology</a><br>
+	&nbsp;&nbsp;&nbsp;<a href="http://cornell.videonote.com/channels/563">VideoNote</a><br>
+	<hr>
+	<b>Handouts:</b><br>
+	&nbsp;&nbsp;&nbsp;<a href="../lectures/index.php">Lectures</a><br>	
+	&nbsp;&nbsp;&nbsp;<a href="../assignments/index.php">Assignments</a><br>	
+	&nbsp;&nbsp;&nbsp;<a href="../labs/index.php">Labs</a><br>	
+	<hr>
+	<b>Assessment:</b><br>
+	&nbsp;&nbsp;&nbsp;<a href="../about/grading.php">Grading</a><br>
+	&nbsp;&nbsp;&nbsp;<a href="../exams/index.php">Exams</a><br>	
+	<hr>
+	<b>Resources:</b><br>
+	&nbsp;&nbsp;&nbsp;<a href="https://cms-a.csuglab.cornell.edu/">CMS</a><br>
+	&nbsp;&nbsp;&nbsp;<a href="http://piazza.com/cornell/fall2016/cs1110/home">Piazza</a><br>
+	&nbsp;&nbsp;&nbsp;<a href="../resources/aew.php">AEWs</a><br>	
+	&nbsp;&nbsp;&nbsp;<a href="../resources/faq.php">FAQ</a><br>	
+	&nbsp;&nbsp;&nbsp;<a href="https://docs.python.org/2.7/library/">Python API</a><br>
+	&nbsp;&nbsp;&nbsp;<a href="http://cs1110.cs.cornell.edu/visualizer/#mode=edit">Python Tutor</a><br>
+	<hr>
+	<a href="../materials/style.php">Style Guide</a><br>
+	<hr>
+	<a href="../about/integrity.php">Academic Integrity</a>
+	</td>
+	
+	<!-- Main Content -->
+	<td id="mainContent"> 
+
+<h1>Lecture Summaries</h1>
+
+<p>
+This page lists a summary of the activities of each week, in reverse chronological order.  This
+is your go-to page for downloading in-class handouts and getting caught back up if you get 
+behind. This page is updated dynamically all semester long, with new material added as we get
+there.
+</p>
+
+<p>
+If you want to see what future lectures in this class will be, you should look at the
+<a href="../about/calendar.php">syllabus page</a>.
+</p>
+
+<hr>
+
+<h2>Week 15</h2>
+
+<h3>1 December (Thursday): <span style="color: #000000">Course Wrap-Up</span></h3>
+
+<p>
+<br><br>
+	
+Hopefully you have enjoyed this course. Assuming that you have, today we discuss your 
+options about what to do next in computer science.
+	
+</p>
+
+<br clear="all">
+<hr width="50%">
+
+<h3 id="alternate">Lab 13: Sequence Algorithms</h3>
+
+<p>
+[<a href="../labs/lab13/lab13.pdf">Instructions</a>]
+<br><br>
+
+This is the last required lab of the course. It covers the major topics with sequence 
+algorithms that will appear on the final. Therefore, you should work on the lab as a 
+way of studying for the final exam.
+	
+</p>
+
+<hr width="50%">
+
+<h3>29 November (Tuesday): <span style="color: #000000">Searching and Sorting</span></h3>
+
+<p>
+[<a href="11-29-16/handout-27.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+<table id="internal" align="right" vspace="10" hspace="10" width="175px">
+<tbody><tr>
+	<th>Demos</th>
+</tr>
+<tr>
+	<td><a href="11-29-16/modules/algorithms.py">algorithms.py</a></td>
+</tr>
+</tbody></table>
+<br><br>
+	
+Today we complete our discussion of loop invariants and show how to use them to implement 
+sorting. This is the last lecture covering material on the exam.
+	
+</p>
+
+<br clear="all">
+<hr>
+
+<h2>Week 14</h2>
+
+<h3>25 November (Friday): <span style="color: #000000">THANKSGIVING</span></h3>
+
+<p>
+<br><br>
+	
+Gobble, gobble.
+	
+</p>
+
+<br clear="all">
+<hr width="50%">
+
+<h3>22 November (Tuesday): <span style="color: #000000">Sequence Algorithms (cont)</span></h3>
+
+<p>
+[<a href="11-22-16/handout-26.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+[<a href="11-22-16/presentation-26.pdf">Presentation</a>]
+<table id="internal" align="right" vspace="10" hspace="10" width="175px">
+<tbody><tr>
+	<th>Demos</th>
+</tr>
+<tr>
+	<td><a href="11-22-16/modules/algorithms.py">algorithms.py</a></td>
+</tr>
+</tbody></table>
+<br><br>
+	
+Today we continue our discussion of invariants and algorithms from the previous 
+lecture. We review the Dutch National Flag algorithm and talk about how changing invariants
+can change your algorithm.
+	
+</p>
+
+<br clear="all">
+<hr>
+
+<h2>Week 13</h2>
+
+<h3>17 November (Thursday): <span style="color: #000000">Sequence Algorithms</span></h3>
+
+<p>
+[<a href="11-17-16/handout-25.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+[<a href="11-17-16/presentation-25.pdf">Presentation</a>]
+<table id="internal" align="right" vspace="10" hspace="10" width="175px">
+<tbody><tr>
+	<th>Demos</th>
+</tr>
+<tr>
+	<td><a href="11-17-16/modules/algorithms.py">algorithms.py</a></td>
+</tr>
+</tbody></table>
+<br><br>
+	
+Instead, today we start on the last major topic in the course: sorting. Before we get 
+to sorting, we have start with the framework for building complex algorithms on sequences 
+(strings, lists, etc.). This lecture covers advanced loop-invariants, and is a very 
+important lecture for the final exam.
+	
+</p>
+
+<p><b>Reading</b>: Chapter 13</p>
+
+<br clear="all">
+<hr width="50%">
+
+<h3 id="alternate">Lab 12: Loop Invariants</h3>
+
+<p>
+[<a href="../labs/lab12/lab12.pdf">Instructions</a>]
+<br><br>
+
+This second to last lab gives you a lot of practice with loop-invariants.  In particular,
+it shows you how to use invariants to construct a function with a while-loop.  While
+many of you may be able to skip this lab (because you have done all of the labs so far),
+we recommend that you do not do this.  This is one of the major new topics on the final.
+	
+</p>
+
+<hr width="50%">
+
+<h3>15 November (Tuesday): <span style="color: #000000">GUI Applications</span></h3>
+
+<p>
+[<a href="11-15-16/handout-24.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+[<a href="11-15-16/presentation-24.pdf">Presentation</a>]
+<table id="internal" align="right" vspace="10" hspace="10" width="175px">
+<tbody><tr>
+	<th>Demos</th>
+</tr>
+<tr>
+	<td><a href="11-15-16/modules/animation.py">animation.py</a></td>
+</tr>
+<tr>
+	<td><a href="11-15-16/modules/arrows.py">arrows.py</a></td>
+</tr>
+<tr>
+	<td><a href="11-15-16/modules/state.py">state.py</a></td>
+</tr>
+<tr>
+	<td><a href="11-15-16/modules/touch.py">touch.py</a></td>
+</tr>
+<tr>
+	<td><a href="11-15-16/modules/subcontroller.py">subcontroller.py</a></td>
+</tr>
+<tr>
+	<td><a href="11-15-16/modules/pyro.py">pyro.py</a></td>
+</tr>
+<tr>
+	<td><a href="11-15-16/modules/game2d.py">game2d.py</a></td>
+</tr>
+</tbody></table>
+<br><br>
+	
+Today we return to classes one last time, and show how classes and while-loops fit 
+together. By the end of the lecture, we will see that class invariants and loop invariants 
+are really the same thing in practice. Today's lecture will provide you all that you need 
+to know to get started on the last assignment.	
+	
+</p>
+
+<p><b>Reading</b>: Chapter 19</p>
+
+<br clear="all">
+<hr>
+
+<h2>Week 12</h2>
+
+<h3>10 November (Thursday): <span style="color: #000000">Loop Invariants</span></h3>
+
+<p>
+[<a href="11-10-16/handout-23.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+[<a href="11-10-16/presentation-23.pdf">Presentation</a>]
+<table id="internal" align="right" vspace="10" hspace="10" width="175px">
+<tbody><tr>
+	<th>Demos</th>
+</tr>
+<tr>
+	<td><a href="11-10-16/modules/pairs.py">pairs.py</a></td>
+</tr>
+<tr>
+	<td><a href="11-10-16/modules/loop_invariants.py">loop_invariants.py</a></td>
+</tr>
+</tbody></table>
+<br><br>
+	
+Today we discuss how to design algorithms for while-loops. We introduce the notion of a 
+loop-invariant, and show how to use that to write a program with a loop. Invariants are 
+an important topic on the final exam, and are covered in the final labs.
+	
+</p>
+
+<p><b>Reading</b>: <a href="../materials/loop_invariants.pdf">Loop Invariants</a></p>
+
+<br clear="all">
+<hr width="50%">
+
+<h3 id="alternate">Lab 11: Loop Exercises</h3>
+
+<p>
+[<a href="../labs/lab11/lab11.pdf">Instructions</a>]
+<br><br>
+
+This is the first of several labs involving loops. It includes while-loops over both 
+ranges integers and over more complicated conditions. Given both the exam and the 
+assignment, we have tried to make this lab reasonable.
+	
+</p>
+
+<hr width="50%">
+
+<h3>8 November (Tuesday): <span style="color: #000000">While Loops</span></h3>
+
+<p>
+[<a href="11-08-16/handout-22.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+[<a href="11-08-16/presentation-22.pdf">Presentation</a>]
+<table id="internal" align="right" vspace="10" hspace="10" width="175px">
+<tbody><tr>
+	<th>Demos</th>
+</tr>
+<tr>
+	<td><a href="11-08-16/modules/flow.py">flow.py</a></td>
+</tr>
+<tr>
+	<td><a href="11-08-16/modules/comparison.py">comparison.py</a></td>
+</tr>
+<tr>
+	<td><a href="11-08-16/modules/numerical.py">numerical.py</a></td>
+</tr>
+</tbody></table>
+<br><br>
+
+Today we introduce while-loops, which are an alternate form of iteration. They are 
+trickier to use than for-loops, and will be an important part of the last part of the 
+course.
+	
+</p>
+
+<p><b>Reading</b>: Chapter 7</p>
+
+<br clear="all">
+<hr>
+
+<h2>Week 11</h2>
+
+<h3>3 November (Thursday): <span style="color: #000000">Programming with Subclasses</span></h3>
+
+<p>
+[<a href="11-03-16/handout-21.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+[<a href="11-03-16/presentation-21.pdf">Presentation</a>]
+<table id="internal" align="right" vspace="10" hspace="10" width="175px">
+<tbody><tr>
+	<th>Demos</th>
+</tr>
+<tr>
+	<td><a href="11-03-16/modules/newfraction.py">newfraction.py</a></td>
+</tr>
+<tr>
+	<td><a href="11-03-16/modules/raising.py">raising.py</a></td>
+</tr>
+<tr>
+	<td><a href="11-03-16/modules/read.py">read.py</a></td>
+</tr>
+<tr>
+	<td><a href="11-03-16/modules/trying.py">trying.py</a></td>
+</tr>
+</tbody></table>
+<br><br>
+
+Now that we have subclasses, there is quite a bit we can do with them.  To understand 
+how to program with subclasses, we need to understand how to make type more explicit
+in our programs.  We do that in this lecture, including a review of the try-except
+statement that we saw earlier in the course.
+	
+</p>
+
+<p><b>Reading</b>: <a href="https://docs.python.org/2/tutorial/errors.html">Exceptions in Python</a></p>
+
+<br clear="all">
+<hr width="50%">
+
+<h3 id="alternate">Lab 10: Subclassing and Inheritance</h3>
+
+<p>
+[<a href="../labs/lab10/lab10.pdf">Instructions</a>]
+<br><br>
+
+This is a short(ish), but fun, lab that gives you experience with subclasses. In 
+particular, you can see how subclasses can be very useful in graphics applications. We 
+have also added some additional exercises with methods, particularly with getters and 
+setters.
+	
+</p>
+
+<hr width="50%">
+
+<h3>1 November (Tuesday): <span style="color: #000000">Inheritance</span></h3>
+
+<p>
+[<a href="11-01-16/handout-20.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+[<a href="11-01-16/presentation-20.pdf">Presentation</a>]
+<table id="internal" align="right" vspace="10" hspace="10" width="175px">
+<tbody><tr>
+	<th>Demos</th>
+</tr>
+<tr>
+	<td><a href="11-01-16/modules/initialize.py">initialize.py</a></td>
+</tr>
+<tr>
+	<td><a href="11-01-16/modules/override.py">override.py</a></td>
+</tr>
+<tr>
+	<td><a href="11-01-16/modules/resolve.py">resolve.py</a></td>
+</tr>
+<tr>
+	<td><a href="11-01-16/modules/employee.py">employee.py</a></td>
+</tr>
+<tr>
+	<td><a href="11-01-16/modules/app.py">app.py</a></td>
+</tr>
+</tbody></table>
+<br><br>
+
+Subclasses and inheritance are integral part of object oriented programming. It allows us 
+to take classes that someone else created (such as the GUI classes that Kivy provides) and 
+add functionality to them. Today we show how these features are used in Python.
+	
+</p>
+
+<p><b>Reading</b>: Chapter 18</p>
+
+<br clear="all">
+<hr>
+
+<h2>Week 10</h2>
+
+<h3>27 October (Thursday): <span style="color: #000000">Using Classes Effectively</span></h3>
+
+<p>
+[<a href="10-27-16/handout-19.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+[<a href="10-27-16/presentation-19.pdf">Presentation</a>]
+<table id="internal" align="right" vspace="10" hspace="10" width="175px">
+<tbody><tr>
+	<th>Demos</th>
+</tr>
+<tr>
+	<td><a href="10-27-16/modules/time.py">time.py</a></td>
+</tr>
+<tr>
+	<td><a href="10-27-16/modules/rectangle.py">rectangle.py</a></td>
+</tr>
+<tr>
+	<td><a href="10-27-16/modules/card.py">card.py</a></td>
+</tr>
+<tr>
+	<td><a href="10-27-16/modules/hand.py">hand.py</a></td>
+</tr>
+<tr>
+	<td><a href="10-27-16/modules/betterfraction.py">betterfraction.py</a></td>
+</tr>
+<tr>
+	<td><a href="10-27-16/modules/bestfraction.py">bestfraction.py</a></td>
+</tr>
+</tbody></table>
+<br><br>
+
+In previous lectures, we have learned the syntax for defining classes. Today we look at 
+the design philosophy for making classes. This lecture is very similar to Lecture 9 
+(Algorithm Design), except that it is for classes instead of functions.
+	
+</p>
+
+<br clear="all">
+<hr width="50%">
+
+<h3 id="alternate">Lab 9: Blackjack</h3>
+
+<p>
+[<a href="../labs/lab09/lab09.pdf">Instructions</a>]
+<br><br>
+
+This is a straight-forward lab that gives you some experience working with classes. 
+And when you are done, you can play a nice game of blackjack.	
+	
+</p>
+
+<hr width="50%">
+
+<h3>25 October (Tuesday): <span style="color: #000000">Methods and Operations</span></h3>
+
+<p>
+[<a href="10-25-16/handout-18.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+[<a href="10-25-16/presentation-18.pdf">Presentation</a>]
+<table id="internal" align="right" vspace="10" hspace="10" width="175px">
+<tbody><tr>
+	<th>Demos</th>
+</tr>
+<tr>
+	<td><a href="10-25-16/modules/point.py">point.py</a></td>
+</tr>
+<tr>
+	<td><a href="10-25-16/modules/simplefrac.py">simplefrac.py</a></td>
+</tr>
+<tr>
+	<td><a href="10-25-16/modules/fraction.py">fraction.py</a></td>
+</tr>
+</tbody></table>
+<br><br>
+
+There is a lot going on with classes in Python. There are all these mysterious methods 
+that start with an underscore. Today we talk these mysterious methods. We show how to use
+these methods to create classes for mathematical types like fractions or complex numbers.
+	
+</p>
+
+<p><b>Reading</b>: Chapter 17</p>
+
+<br clear="all">
+<hr>
+
+<h2>Week 9</h2>
+
+<h3>20 October (Thursday): <span style="color: #000000">Classes</span></h3>
+
+<p>
+[<a href="10-20-16/handout-17.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+[<a href="10-20-16/presentation-17.pdf">Presentation</a>]
+<table id="internal" align="right" vspace="10" hspace="10" width="175px">
+<tbody><tr>
+	<th>Demos</th>
+</tr>
+<tr>
+	<td><a href="10-20-16/modules/example.py">example.py</a></td>
+</tr>
+<tr>
+	<td><a href="10-20-16/modules/worker.py">worker.py</a></td>
+</tr>
+<tr>
+	<td><a href="10-20-16/modules/point.py">point.py</a></td>
+</tr>
+<tr>
+	<td><a href="10-20-16/modules/person.py">person.py</a></td>
+</tr>
+<tr>
+	<td><a href="10-20-16/modules/testperson.py">testperson.py</a></td>
+</tr>
+</tbody></table>
+<br><br>
+
+Up until now, if we wanted to use objects, we had to import a module that provided 
+them for us. Today we finally learn how to create our own classes. Not only can we 
+make our own class types now, but we can even add them to the Python visualizer.
+	
+</p>
+
+<p><b>Reading</b>: Chapters 15, 16</p>
+
+<br clear="all">
+<hr width="50%">
+
+<h3 id="alternate">Lab 8: Recursion Exercises</h3>
+
+<p>
+[<a href="../labs/lab08/lab08.pdf">Instructions</a>]
+<br><br>
+
+This lab gives you experience with writing recursive functions. You may want to do this
+particular lab in the <a href="https://cs1110.cs.cornell.edu/labs/lab/8">online system</a> 
+now that we have the bugs worked out.  The online system has a lot more test cases to 
+check your work.
+	
+</p>
+
+<hr width="50%">
+
+<h3>18 October (Tuesday): <span style="color: #000000">More on Recursion</span></h3>
+
+<p>
+[<a href="10-18-16/handout-16.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+[<a href="10-18-16/presentation-16.pdf">Presentation</a>]
+<table id="internal" align="right" vspace="10" hspace="10" width="175px">
+<tbody><tr>
+	<th>Demos</th>
+</tr>
+<tr>
+	<td><a href="10-18-16/modules/morefun.py">morefun.py</a></td>
+</tr>
+<tr>
+	<td><a href="10-18-16/modules/testmore.py">testmore.py</a></td>
+</tr>
+<tr>
+	<td><a href="10-18-16/modules/person.py">person.py</a></td>
+</tr>
+<tr>
+	<td><a href="10-18-16/modules/testperson.py">testperson.py</a></td>
+</tr>
+<tr>
+	<td><a href="10-18-16/modules/palindrome.py">palindrome.py</a></td>
+</tr>
+<tr>
+	<td><a href="10-18-16/modules/testpalindrome.py">testpalindrome.py</a></td>
+</tr>
+<tr>
+	<td><a href="10-18-16/modules/hilbert.py">hilbert.py</a></td>
+</tr>
+</tbody></table>
+<br><br>
+
+Today we continue to talk about recursion. We look at the different ways that we can 
+break up a recursive function, and more advanced uses of divide-and-conquer. 
+We also look at how recursion is used in Assignment 4.
+	
+</p>
+
+<p><b>Reading</b>: Sections 6.5-6.8</p>
+
+<br clear="all">
+<hr>
+
+<h2>Week 8</h2>
+
+<h3>13 October (Thursday): <span style="color: #000000">Recursion</span></h3>
+
+<p>
+[<a href="10-13-16/handout-15.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+[<a href="10-13-16/presentation-15.pdf">Presentation</a>]
+<table id="internal" align="right" vspace="10" hspace="10" width="175px">
+<tbody><tr>
+	<th>Demos</th>
+</tr>
+<tr>
+	<td><a href="10-13-16/modules/factorial.py">factorial.py</a></td>
+</tr>
+<tr>
+	<td><a href="10-13-16/modules/fibonacci.py">fibonacci.py</a></td>
+</tr>
+<tr>
+	<td><a href="10-13-16/modules/memory.py">memory.py</a></td>
+</tr>
+<tr>
+	<td><a href="10-13-16/modules/deblank.py">deblank.py</a></td>
+</tr>
+<tr>
+	<td><a href="10-13-16/modules/stringfun.py">stringfun.py</a></td>
+</tr>
+<tr>
+	<td><a href="10-13-16/modules/teststring.py">teststring.py</a></td>
+</tr>
+</tbody></table>
+<br><br>
+
+Today we talk about recursion, a powerful computing tool and one of the harder concepts 
+in the course. Recursion is one of the fundamental principles of computer science, and 
+used for a lot of advanced algorithms. We will see many applications as the course 
+progresses.
+	
+</p>
+
+<p><b>Reading</b>: Section 5.8-5.10</p>
+
+<br clear="all">
+<hr width="50%">
+
+<h3>11 October (Tuesday): <span style="color: #000000">FALL BREAK</span></h3>
+
+<p>
+<br><br>
+
+There is no class today.
+	
+</p>
+
+<br clear="all">
+<hr>
+
+<h2>Week 7</h2>
+
+<h3>6 October (Thursday): <span style="color: #000000">More with Sequences</span></h3>
+
+<p>
+[<a href="10-06-16/handout-14.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+[<a href="10-06-16/presentation-14.pdf">Presentation</a>]
+<table id="internal" align="right" vspace="10" hspace="10" width="175px">
+<tbody><tr>
+	<th>Demos</th>
+</tr>
+<tr>
+	<td><a href="10-06-16/modules/grades.py">grades.py</a></td>
+</tr>
+<tr>
+	<td><a href="10-06-16/modules/transpose.py">transpose.py</a></td>
+</tr>
+</tbody></table>
+<br><br>
+
+This lecture covers several advanced topics on sequences. In particular, we will look 
+at the topic of multi-dimensional lists, and why we would want to use them. We also 
+introduce dictionaries, which are similar to a sequence, but have several important 
+differences.
+	
+</p>
+
+<p><b>Reading</b>: Chapter 11</p>
+
+<br clear="all">
+<hr width="50%">
+
+<h3 id="alternate">Lab 7: Lists &amp; For-Loops</h3>
+
+<p>
+[<a href="../labs/lab07/lab07.pdf">Instructions</a>]
+<br><br>
+
+This lab has you work with lists and write several functions using for-loops. There is 
+no lab the week of Fall Break, so you technically have two weeks to do this lab. However, 
+the material from this lab may be on the exam. Therefore, you may want to complete it as 
+soon as possible.
+	
+</p>
+
+<hr width="50%">
+
+<h3>4 October (Tuesday): <span style="color: #000000">For-Loops</span></h3>
+
+<p>
+[<a href="10-04-16/handout-13.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+[<a href="10-04-16/presentation-13.pdf">Presentation</a>]
+<table id="internal" align="right" vspace="10" hspace="10" width="175px">
+<tbody><tr>
+	<th>Demos</th>
+</tr>
+<tr>
+	<td><a href="10-04-16/modules/loops.py">loops.py</a></td>
+</tr>
+<tr>
+	<td><a href="10-04-16/modules/ranges.py">ranges.py</a></td>
+</tr>
+</tbody></table>
+<br><br>
+
+Lists (and sequences) come with their own special control structure: the for-loop. In 
+this lecture we see what for-loops can (and cannot) do to make more interesting programs.
+</p><p>
+The material in this lecture is the last material that will be on the first prelim.
+	
+</p>
+
+<p><b>Reading</b>: Sections 8.4, 8.7, Chapter 10</p>
+
+<br clear="all">
+<hr>
+
+<h2>Week 6</h2>
+
+<h3>29 September (Thursday): <span style="color: #000000">Lists (and Sequences)</span></h3>
+
+<p>
+[<a href="09-29-16/handout-12.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+[<a href="09-29-16/presentation-12.pdf">Presentation</a>]
+<br><br>
+
+Now that you are an expert of string slicing, we introduce another sliceable data type: 
+lists. Lists behave just like strings, except that they can contain data other than text. 
+They are also mutable, which means we need to use folders to represent them.
+	
+</p>
+
+<p><b>Reading</b>: Sections 10.0-10.2 and 10.4-10.6</p>
+
+<br clear="all">
+<hr width="50%">
+
+<h3 id="alternate">Lab 6: Asserts &amp; Debugging </h3>
+
+<p>
+[<a href="../labs/lab06/lab06.pdf">Instructions</a>]
+<br><br>
+
+We have talked a lot about errors and debugging in the last few weeks.  This week you 
+will get hands-on experience finding errors in some rather complex functions. In 
+addition, you will learn how to add asserts to better stop errors before they appear.
+	
+</p>
+
+<hr width="50%">
+
+<h3>27 September (Tuesday): <span style="color: #000000">Asserts and Error Handling</span></h3>
+
+<p>
+[<a href="09-27-16/handout-11.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+[<a href="09-27-16/presentation-11.pdf">Presentation</a>]
+<table id="internal" align="right" vspace="10" hspace="10" width="175px">
+<tbody><tr>
+	<th>Demos</th>
+</tr>
+<tr>
+	<td><a href="09-27-16/modules/anglicize.py">anglicize.py</a></td>
+</tr>
+<tr>
+	<td><a href="09-27-16/modules/error.py">error.py</a></td>
+</tr>
+<tr>
+	<td><a href="09-27-16/modules/recover.py">recover.py</a></td>
+</tr>
+<tr>
+	<td><a href="09-27-16/modules/try.py">try.py</a></td>
+</tr>
+</tbody></table>
+<br><br>
+
+We have talked about how preconditions are a promise that indicate what your
+function will and will not do.  Today we will show how to make them more
+than a promise.  We will also show how error reporting relates to the call stack.
+	
+</p>
+
+<br clear="all">
+<hr>
+
+<h2>Week 5</h2>
+
+<h3>22 September (Thursday): <span style="color: #000000">Memory in Python</span></h3>
+
+<p>
+[<a href="09-22-16/handout-10.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+[<a href="09-22-16/presentation-10.pdf">Presentation</a>]
+<table id="internal" align="right" vspace="10" hspace="10" width="175px">
+<tbody><tr>
+	<th>Demos</th>
+</tr>
+<tr>
+	<td><a href="09-22-16/modules/reorder.py">reorder.py</a></td>
+</tr>
+<tr>
+	<td><a href="09-22-16/modules/anglicize.py">anglicize.py</a></td>
+</tr>
+<tr>
+	<td><a href="09-22-16/modules/globals.py">globals.py</a></td>
+</tr>
+</tbody></table>
+<br><br>
+
+Throughout the past few weeks, we have seen several different ways of representing
+memory in Python.  Today we put everything together, introducing global space, heap
+space, and the <i>call stack</i>.  The latter is the collection of frames for all 
+currently executing functions.  
+	
+</p>
+
+<br clear="all">
+<hr width="50%">
+
+<h3 id="alternate">Lab 5: Objects &amp; Conditionals</h3>
+
+<p>
+[<a href="../labs/lab05/lab05.pdf">Instructions</a>]
+<br><br>
+
+Now that you are an expert of writing functions, our labs can include more interesting 
+challenges. In this lab, we show how to use conditionals in functions. Our functions will 
+use strings (just like Assignment 1) as well as a new class called Time.
+	
+</p>
+
+<hr width="50%">
+
+<h3>20 September (Tuesday): <span style="color: #000000">Algorithm Design</span></h3>
+
+<p>
+[<a href="09-20-16/handout-09.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+[<a href="09-20-16/presentation-09.pdf">Presentation</a>]
+<table id="internal" align="right" vspace="10" hspace="10" width="175px">
+<tbody><tr>
+	<th>Demos</th>
+</tr>
+<tr>
+	<td><a href="09-20-16/modules/reorder.py">reorder.py</a></td>
+</tr>
+<tr>
+	<td><a href="09-20-16/modules/anglicize.py">anglicize.py</a></td>
+</tr>
+<tr>
+	<td><a href="09-20-16/modules/test_anglicize.py">test_anglicize.py</a></td>
+</tr>
+</tbody></table>
+<br><br>
+
+Your first assignment was very much do-this/do-that. Today we step back and see how 
+we would design a complex program from scratch. How do we take a complex task and 
+break it up into manageable pieces?
+	
+</p>
+
+<p><b>Reading</b>: Chapter 4</p>
+
+<br clear="all">
+<hr>
+
+<h2>Week 4</h2>
+
+<h3>15 September (Thursday): <span style="color: #000000">Conditionals and Control Flow</span></h3>
+
+<p>
+[<a href="09-15-16/handout-08.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+[<a href="09-15-16/presentation-08.pdf">Presentation</a>]
+<table id="internal" align="right" vspace="10" hspace="10" width="175px">
+<tbody><tr>
+	<th>Demos</th>
+</tr>
+<tr>
+	<td><a href="09-15-16/modules/flow.py">flow.py</a></td>
+</tr>
+<tr>
+	<td><a href="09-15-16/modules/name.py">name.py</a></td>
+</tr>
+<tr>
+	<td><a href="09-15-16/modules/test2.py">test2.py</a></td>
+</tr>
+<tr>
+	<td><a href="09-15-16/modules/debug_name.py">debug_name.py</a></td>
+</tr>
+</tbody></table>
+<br><br>
+
+Today we talk about the difference between program structure and program flow. We also 
+introduce the conditional, which is our first program structure for controlling program 
+flow. This will not be necessary for Assignment 1, but will be very important in later 
+assignments.
+	
+</p>
+
+<p><b>Reading</b>: Sections 5.1-5.7</p>
+
+<br clear="all">
+<hr width="50%">
+
+<h3 id="alternate">Lab 4: Assignment 1</h3>
+
+<p>
+[<a href="../labs/lab04/lab04.pdf">Instructions</a>]
+<br><br>
+
+In recognition of the looming assignment, today's lab is a chance for you to work on 
+Assignment 1.  There are some optional exercises on the lab, in case you need more 
+practice before you start Assignment 1.  However, these are not necessary and you will 
+get credit for the lab so long as you turn in Assignment 1 on time Sunday night.
+	
+</p>
+
+<hr width="50%">
+
+<h3>13 September (Tuesday): <span style="color: #000000">Objects</span></h3>
+
+<p>
+[<a href="09-13-16/handout-07.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+[<a href="09-13-16/presentation-07.pdf">Presentation</a>]
+<table id="internal" align="right" vspace="10" hspace="10" width="175px">
+<tbody><tr>
+	<th>Demos</th>
+</tr>
+<tr>
+	<td><a href="09-13-16/modules/pointfuncs.py">pointfuncs.py</a></td>
+</tr>
+</tbody></table>
+<br><br>
+
+Today, we introduce the notion of <i>objects</i>. Objects are a new type of data. 
+They require a new conceptual model for us to understand them.  Objects appear briefly 
+in Assignment 1, but will be a major part of Assignment 3.
+	
+</p>
+
+<br clear="all">
+<hr>
+
+<h2>Week 3</h2>
+
+<h3>9 September (Friday): <span style="color: #000000">Specifications and Testing</span></h3>
+
+<p>
+[<a href="09-08-16/handout-06.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+[<a href="09-08-16/presentation-06.pdf">Presentation</a>]
+<table id="internal" align="right" vspace="10" hspace="10" width="175px">
+<tbody><tr>
+	<th>Demos</th>
+</tr>
+<tr>
+	<td><a href="09-08-16/modules/greet.py">greet.py</a></td>
+</tr>
+<tr>
+	<td><a href="09-08-16/modules/temp.py">temp.py</a></td>
+</tr>
+<tr>
+	<td><a href="09-08-16/modules/name.py">name.py</a></td>
+</tr>
+<tr>
+	<td><a href="09-08-16/modules/test1.py">test1.py</a></td>
+</tr>
+<tr>
+	<td><a href="09-08-16/modules/test2.py">test2.py</a></td>
+</tr>
+<tr>
+	<td><a href="09-08-16/modules/debug_name.py">debug_name.py</a></td>
+</tr>
+</tbody></table>
+<br><br>
+
+We now know how to write some complex functions.  However, writing functions takes a lot 
+of practice and you are likely make mistakes along the way.  That is why it is extremely 
+important to test your functions and make sure they are working properly.  As part of 
+testing, we will also see why comments are more important that just notes to yourself.
+	
+</p>
+
+<p><b>Reading</b>: <a href="http://tovid.wikia.com/wiki/Python_tips/Docstrings">Docstrings in Python</a></p>
+
+<br clear="all">
+<hr width="50%">
+
+<h3 id="alternate">Lab 3: Working with Strings</h3>
+
+<p>
+[<a href="../labs/lab03/lab03.pdf">Instructions</a>]
+<br><br>
+
+This week's lab is the most important one all semester.  It covers a lot of important
+topics that you will need before you can start on the first assignment.  In particular,
+you will learn how to write your own functions and put them into a module.
+	
+</p>
+
+<hr width="50%">
+
+<h3>6 September (Tuesday): <span style="color: #000000">Strings</span></h3>
+
+<p>
+[<a href="09-06-16/handout-05.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+[<a href="09-06-16/presentation-05.pdf">Presentation</a>]
+<table id="internal" align="right" vspace="10" hspace="10" width="175px">
+<tbody><tr>
+	<th>Demos</th>
+</tr>
+<tr>
+	<td><a href="09-06-16/modules/greet.py">greet.py</a></td>
+</tr>
+<tr>
+	<td><a href="09-06-16/modules/print_return.py">print_return.py</a></td>
+</tr>
+<tr>
+	<td><a href="09-06-16/modules/middle.py">middle.py</a></td>
+</tr>
+<tr>
+	<td><a href="09-06-16/modules/commalist.py">commalist.py</a></td>
+</tr>
+</tbody></table>
+<br><br>
+
+Python really shows off its power when working with text.  Today we go into depth
+about the string type, which is how Python represents text.  We show how to cut up
+text and paste it back together.  The techniques that we learn will be very important
+for the first assignment.
+	
+</p>
+
+<p><b>Reading</b>: Chapter 8 (not 8.6, 8.11)</p>
+
+<br clear="all">
+<hr>
+
+<h2>Week 2</h2>
+
+<h3>1 September (Thursday): <span style="color: #000000">Defining Functions</span></h3>
+
+<p>
+[<a href="09-01-16/handout-04.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+[<a href="09-01-16/presentation-04.pdf">Presentation</a>]
+<table id="internal" align="right" vspace="10" hspace="10" width="175px">
+<tbody><tr>
+	<th>Demos</th>
+</tr>
+<tr>
+	<td><a href="09-01-16/modules/plusone.py">plusone.py</a></td>
+</tr>
+<tr>
+	<td><a href="09-01-16/modules/foo.py">foo.py</a></td>
+</tr>
+<tr>
+	<td><a href="09-01-16/modules/temp.py">temp.py</a></td>
+</tr>
+<tr>
+	<td><a href="09-01-16/modules/globals.py">globals.py</a></td>
+</tr>
+</tbody></table>
+<br><br>
+
+Now that we know how to use functions, we can learn how to create our own functions.
+As part of this, we will learn the important difference between a function call and a 
+function definition.
+	
+</p>
+
+<p><b>Reading</b>: Chapter 3</p>
+
+<br clear="all">
+<hr width="50%">
+
+<h3 id="alternate">Lab 2: Functions and Assignments</h3>
+
+<p>
+[<a href="../labs/lab02/lab02.pdf">Instructions</a>]
+<br><br>
+
+The purpose of this lab is to get you comfortable with using functions and modules provided
+by Python library. It has almost the same format as last-weeks lab. At the end of the lab 
+you will write your first (simple) module.
+	
+</p>
+
+<hr width="50%">
+
+<h3>30 August (Tuesday): <span style="color: #000000">Functions and Modules</span></h3>
+
+<p>
+[<a href="08-30-16/handout-03.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+[<a href="08-30-16/presentation-03.pdf">Presentation</a>]
+<table id="internal" align="right" vspace="10" hspace="10" width="175px">
+<tbody><tr>
+	<th>Demos</th>
+</tr>
+<tr>
+	<td><a href="08-30-16/modules/module.py">module.py</a></td>
+</tr>
+<tr>
+	<td><a href="08-30-16/modules/script.py">script.py</a></td>
+</tr>
+<tr>
+	<td><a href="08-30-16/modules/helloApp.py">helloApp.py</a></td>
+</tr>
+<tr>
+	<td><a href="08-30-16/modules/plusone.py">plusone.py</a></td>
+</tr>
+<tr>
+	<td><a href="08-30-16/modules/temp.py">temp.py</a></td>
+</tr>
+</tbody></table>
+<br><br>
+
+Today we introduce the concept of a module and show how they provide Python with
+extra (optional) functionality.  We show how to use the many modules built into 
+Python, and how to make our own modules.
+	
+</p>
+
+<p><b>Reading</b>: Sections 3.1-3.4</p>
+
+<br clear="all">
+<hr>
+
+<h2>Week 1</h2>
+
+<h3>25 August (Thursday): <span style="color: #000000">Variables and Assignments</span></h3>
+
+<p>
+[<a href="08-25-16/handout-02.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+[<a href="08-25-16/presentation-02.pdf">Presentation</a>]
+<br><br>
+
+While we got started with a little bit of Python last time, this time we will
+jump into it. We show how to use Python as a calculator, and introduce 
+the notion of expressions and types.  We also introduce the notion of a variable, and 
+how an assignment statement works.<br>
+We will use the iClickers for the first time today.
+	
+</p>
+
+<p><b>Reading</b>: Sections 2.2-2.9</p>
+
+<br clear="all">
+<hr width="50%">
+
+<h3 id="alternate">Lab 1: Getting Started</h3>
+
+<p>
+[<a href="../labs/lab01/lab01.pdf">Instructions</a>]
+<br><br>
+
+The purpose of this lab is two fold. First, it is designed to get you started 
+with Python immediately. Second, gives you hands on experience with Python 
+expressions, which we talked about on the first day of class.
+	
+</p>
+
+<hr width="50%">
+
+<h3>23 August (Tuesday): <span style="color: #000000">Types and Expressions</span></h3>
+
+<p>
+[<a href="08-23-16/handout-01.pdf">Handout</a>]
+&nbsp;&nbsp;&nbsp;&nbsp;
+[<a href="08-23-16/presentation-01.pdf">Presentation</a>]
+<table id="internal" align="right" vspace="10" hspace="10" width="175px">
+<tbody><tr>
+	<th>Additional</th>
+</tr>
+<tr>
+	<td><a href="08-23-16/overview.pdf">Course Overview</a></td>
+</tr>
+</tbody></table>
+<br><br>
+
+In this class we give an overview of the course and its expectations. We show you how to
+get started with Python.  In particular, we introduce types and expressions, which is
+the bare minimum that you need to do something "useful" in Python.
+	
+</p>
+
+<p><b>Reading</b>: Chapter 1; Section 2.1</p>
+
+<br clear="all">
+
+<br>
+	</td>
+</tr>
+<tr>
+	<td id="footerLeft">
+	</td>
+	<td id="footerRight" nowrap="">
+	<b><em>Course Material Authors</em></b>: D. Gries, L. Lee, S. Marschner, &amp; W. White (over the years)
+	</td>
+</tr>
+</tbody></table>
+
+</body></html>¡Ô_WebResourceResponseXtext/css_=http://www.cs.cornell.edu/courses/cs1110/2016fa/css/style.cssO&bplist00ÔefX$versionX$objectsY$archiverT$top † ¯#)*0123KLMNOPQRSTUVWXYZ[\]`U$nullÝ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_=http://www.cs.cornell.edu/courses/cs1110/2016fa/css/style.cssÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A½ï~	i ÈÓ456@JWNS.keysZNS.objects©789:;<=>?€	€
+€€€€€€€©ACDEFGHI€€€€€€€€€€ZConnection\Content-TypeVServer_Access-Control-Allow-Origin\X-Powered-By_MicrosoftOfficeWebServerTDate]Accept-Ranges_Transfer-EncodingZkeep-aliveXtext/css\nginx/1.10.0_http://www.cs.cornell.eduWASP.NETW5.0_Pub_Wed, 30 Nov 2016 21:37:27 GMTUbytesXIdentityÒ+,^_\NSDictionary¢^/Ò+,ab_NSHTTPURLResponse£cd/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑgh_WebResourceResponse€    # - 2 7 W ] x {  ‚ … ˆ Œ  – ™ œ Ÿ ¢ ¥ § © « ­ ¯ ° ² ´ ¶ ¸ º ¼ ¾ Å Í Ù Û Ý ß$/8>AJSUW^fq{}ƒ…‡‰‹—™›Ÿ¡£¥§©«¶ÃÊèõ#7BKXt|„¤ª³¸ÅÈÍáåù2             i              4OVbody {
+	background-color: white;
+	font-size: 11pt;
+}
+
+table#bodyTable {
+	margin-left: 0 px;
+	margin-top: 0 px;
+	align: left;
+	border: collapse;
+}
+
+td#headerLeft{
+	background-color: #FEF5E5;
+	vertical-align: middle;
+	text-align: center;
+	width: 150px;
+	font-size: 12pt;
+	padding: 0px;
+	border-bottom: 1px solid #993333;
+}
+
+td#headerRight{
+	background-color: #FEF5E5;
+	vertical-align: top;
+	text-align: center;
+	width: 750px;
+	border-bottom: 1px solid #993333;
+}
+
+td#headerRight p#title {
+	text-align: center;
+	font-weight: bold;
+	font-size: 24pt;
+	margin: 0pt;
+}
+
+td#headerRight p#term {
+	text-align: center;
+	font-weight: bold;
+	font-size:  22pt;
+	margin: 0pt;
+}
+
+td#footerLeft{
+	background-color: #FEF5E5;
+	vertical-align: middle;
+	text-align: center;
+	width: 150px;
+	height: 40px;
+	font-size: 14pt;
+	padding: 0px;
+	border-top: 1px solid #993333;
+}
+
+td#footerRight{
+	background-color: #FEF5E5;
+	vertical-align: middle;
+	text-align: center;
+	width: 750px;
+	height: 40px;
+	font-size: 14pt;
+	border-top: 1px solid #993333;
+}
+
+td#navMenu{
+	background-color: #FEF5E5;
+	vertical-align: top;
+	text-align: left;
+	margin-top: 0px;
+	font-size: 12pt;
+	padding-top: 10pt;
+	padding-left: 2ex;
+	width: 150px;
+	border-right: 1px solid #993333;
+}
+
+td#navMenu a#home {
+	font-size:  14pt;
+}
+
+td#mainContent{
+	background: #FFFFFF;
+	vertical-align: top;
+	text-align: left;
+	padding-top: 5pt;
+	padding-left: 5pt;
+	font-size: 12pt;
+	width: 700px;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	color: #0000CC;
+}
+
+h3 {
+	color: #0099CC;
+}
+
+h3#alternate {
+	color: #8F0000;
+}
+
+h4 {
+	color: #0099CC;
+}
+
+h5 {
+	font-size: 100%;
+	font-style: italic;
+}
+
+dt#def {
+	padding-top:	0px;
+	margin-top: 	10px;
+	color: 			#930;
+	font-size: 		120%;
+	font-style: 	normal;
+	font-weight: 	bolder;
+}
+
+a#redlink {
+	font-weight: bold;
+	color: #CC0000;
+}
+
+pre#tight {
+	font-size:   95%
+}
+
+pre#expand {
+	font-size:   115%
+}
+
+#keyword {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size:   95%
+}
+
+#python {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:   95%
+}
+
+#colorboldblue {
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	color: #0000CC
+}
+
+table#instructors {
+	margin:  0;
+	padding: 0;
+	font-size: 12pt;
+}
+
+table#instructors td {
+	text-align: center;
+}
+
+table#instructors td#info {
+	font-size: 14pt;
+	text-align: left;
+}
+
+table#instructors p {
+	margin: 2pt;
+}
+
+table#internal {
+	border: 2px solid black;
+}
+
+table#internal th {
+	font-weight:		bold;
+	text-align:			center;
+	padding-left:  		4px;
+	padding-right: 		4px;
+	background-color: 	#E8E5FF;
+	border: 1px solid black;
+}
+
+table#internal td {
+	padding-left:  	4px;
+	padding-right: 	4px;
+	border: 1px solid black;
+}
+
+table#staff {
+	border: 2px solid black;
+}
+
+table#staff th {
+	font-weight:		bold;
+	text-align:			left;
+	vertical-align:		top;
+	padding-left:  		3px;
+	padding-right: 		3px;
+	border: 1px solid black;
+}
+
+table#staff td {
+	text-align:		left;
+	vertical-align:	top;
+	padding-left:  	3px;
+	padding-right: 	3px;
+	border: 1px solid black;
+}
+
+table#staff td#divider {
+	background-color: 	#E8E5FF;
+}
+
+table#schedule {
+	border: 2px solid black;
+}
+
+table#schedule th {
+	background-color: 	#E8E5FF;
+	font-weight:		bold;
+	text-align:			center;
+	vertical-align:		top;
+	padding-left:  		3px;
+	padding-right: 		3px;
+	border: 1px solid black;
+}
+
+table#schedule td {
+	vertical-align:	top;
+	padding-left:  	3px;
+	padding-right: 	3px;
+	border: 1px solid black;
+}
+
+table#schedule td#lecture {
+	background-color: #FFFFFF;
+}
+
+table#schedule td#lab {
+	background-color: #CCCCCC;
+}
+
+table#schedule td#break {
+	background-color: #0000FF;
+	color: 	  		  #FFFFFF;
+}
+
+table#schedule td#quiz {
+	background-color: #00CCCC;
+}
+
+table#schedule td#exam {
+	background-color: #FF5C5C;
+}
+
+table#tableofcontents {
+	border: 2px solid black;
+}
+
+table#tableofcontents th {
+	background-color: 	#E8E5FF;
+	text-align:  		center;
+	font-weight:		bold;
+	font-size: 			120%;
+	vertical-align:		top;
+	padding-left:  		3px;
+	padding-right: 		3px;
+	border: 1px solid black;
+}
+
+table#tableofcontents td {
+	text-align:  		left;
+	vertical-align:		top;
+	padding-left:  		3px;
+	padding-right: 		3px;
+	border: 1px solid black;
+}
+
+table#grading {
+	border-collapse:		collapse;
+	border-style: 			groove;
+	border-color: 			black;
+	border-right-width: 	2px;
+	border-left-width: 		2px;
+	border-top-width: 		2px;
+	border-bottom-width:	2px;
+}
+
+table#grading th {
+	background-color: 	#E8E5FF;
+	text-align:			center;
+	font-weight: 		bold;
+	border-style: 		solid;
+	border-color: 		black;
+	border-top-width: 	2px;
+	padding-right: 		5px;
+	padding-left: 		5px;
+}
+
+table#grading td {
+	text-align:			center;
+	border-style: 		dotted;
+	border-color: 		black;
+	border-top-width: 	1px;
+	padding-right: 		5px;
+	padding-left: 		5px;
+}
+
+table#examarchive {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+table#examarchive td {
+	padding-right: 		20px;
+	padding-left: 		20px;
+	border: 1px solid black;
+}
+
+table#materials {
+	border: 2px solid black;
+}
+
+table#materials th {
+	background-color: 	#E8E5FF;
+	font-weight:		bold;
+	text-align:			center;
+	vertical-align:		top;
+	padding-left:  		10px;
+	padding-right: 		10px;
+	border: 1px solid black;
+}
+
+table#materials td {
+	padding-left:  	10px;
+	padding-right: 	10px;
+	vertical-align:	top;
+	border: 1px solid black;
+}
+
+
+table#faq {
+	border: 0; 
+	border-collapse: collapse;
+}
+
+table#faq td {
+	border-style: dotted;
+	border-color: black;
+	border-right-width: 0;
+	border-left-width: 	0;
+	border-top-width: 	0;
+	border-bottom-width: 1px;
+	padding: 3px
+}
+
+table#faq tr#section {
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	color: #0000CC
+}
+
+table#faq tr#section td {
+	border-style: solid;
+	border-color: black;
+	border-right-width: 0;
+	border-left-width: 	0;
+	border-top-width: 	0;
+	border-bottom-width: 1px;
+}
+
+p#large {
+	font-size: 120%;
+}
+
+p#itbd {
+	font-weight: bold;
+	font-style: italic;
+}
+
+/** From the anaconda page */
+.content-button {
+    border-style: solid;
+    border-width: 0;
+    cursor: pointer;
+    font-family: "CalibreWeb-Regular", Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: normal;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    -webkit-appearance: none;
+    border-radius: 0;
+    display: inline-block;
+    padding-top: 0.75rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0.8125rem;
+    padding-left: 1.5rem;
+    background-color: #253746;
+    border-color: #1e2c38;
+    color: #fff;
+    transition: background-color 300ms ease-out;
+    max-width: 18.75rem;
+    text-transform: uppercase
+}
+
+.content-button span {
+    font-family: Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 200;
+	font-size:90%;
+    color: #000;
+}
+
+.content-button:hover, .content-button:focus {
+    background-color: #1e2c38
+}
+
+.content-button:hover, .content-button:focus {
+    color: #fff
+}
+
+.content-button:hover, .content-button:focus {
+    text-decoration: none
+}
+
+.content-button[role="button"] {
+    display: block;
+    padding: 0.75rem 1.375rem;
+    text-align: center
+}
+
+.content-button--blue, .call-to-action__button, .cross-sell__button,
+input[type="submit"].cross-sell__button { 
+    background-color: #089BCC;
+    border-color: #067ca3;
+}
+
+.content-button--blue:hover, .call-to-action__button:hover, .cross-sell__button:hover,
+input[type="submit"].cross-sell__button:hover, .content-button--blue:focus,
+.call-to-action__button:focus, .cross-sell__button:focus, input[type="submit"].cross-sell__button:focus {
+    background-color: #067ca3;
+}
+
+.content-button--blue:hover, .call-to-action__button:hover, .cross-sell__button:hover,
+input[type="submit"].cross-sell__button:hover, .content-button--blue:focus,
+.call-to-action__button:focus, .cross-sell__button:focus, input[type="submit"].cross-sell__button:focus {
+    color: #fff
+}
+
+.content-button--small {
+    /*font-size: 1.125rem;
+    max-width: 12.75rem; */
+}
+
+.content-button--small[role="button"] {
+    /*padding: 0.5625rem 0.875rem;*/
+}    1 < R p ‡ – ¨ ² ¸ ¹ þ†€†‚†‹†¡†ª†ê‹                           ªn

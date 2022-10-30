@@ -1,0 +1,29 @@
+﻿Hi, this is Jessica (jal476), looking at your Assignment A1.
+
+Please revise your A1 solution as we suggest below. Look at each point 
+and revise according to it before going on to the next. When done, resubmit. 
+THEN SUBMIT A REQUEST FOR A REGRADE, SAYING SIMPLY THAT YOU RESUBMITTED. 
+This is how we will know to regrade it. If we don’t get this regrade request, 
+there will be no easy way for us to know that you resubmitted. Be sure you 
+have set your notifications on the CMS so that you receive an email when a 
+grade has been changed.
+
+===========
+script:
+Testing Part A (Space breaking functions)
+before_space(' 1 USD') is '1' but should be ''. 
+after_space(' 1 USD') is 'USD' but should be '1 USD'. 
+
+
+error
+============
+You have failed Testing Part A. Your methods have returned an output dissimilar to our own, and we are unable to 
+proceed with all other tests after this. 
+
+Please examine your code carefully. Be careful of the method "strip(String s)." By using "strip", are you accurately
+able to fulfill the specifications of this program?  
+
+
+
+You will not receive a 10 until all tests are passed. 
+If you have made errors, please read the above carefully, revise carefully, resubmit, and then request a regrade. 

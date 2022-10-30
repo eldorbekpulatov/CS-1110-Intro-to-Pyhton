@@ -1,0 +1,79 @@
+Hi, this is Stephanie Xu (sx49), looking at your Assignment A3.
+At the end of this document is the output of our testing program and a table indicating
+the points for each part.
+
+Functionality
+-------------
+Deduction: 5. In rgb_to_hsv, you used a round function (str5_hsv). H, S, and V should not be rounded at all. We have talked
+about this on Piazza and in the instructions several times now. Just because HSV values may be rounded
+to 5 characters in the GUI does not mean that they should be stored that way. The translation functions
+we are writing could be useful to anyone, in any situation, and in another context the rounding to 5 digits
+might not be done.
+Deduction: 5. Same as above, only for rgb_to_cmyk. You used str5_cmyk.
+Testing
+-------
+No deductions.
+
+===========
+
+[0, 1, 2, 3, 4]
+Start of testing of a3.py
+
+Max correctness points for round: 7
+End test of round
+
+Max correctness points for str5: 7
+End test of str5
+
+Max correctness points for str5_cmyk, str5_hsv: 10
+End test of string functions
+
+Max correctness points for rgb_to_cmyk: 15
+For RGB(217,43,164), M was 80.18 but should be 80.184331. 1.25 pts deducted.
+For RGB(217,43,164), Y was 24.42 but should be 24.423963. 1.25 pts deducted.
+For RGB(217,43,164), K was 14.9 but should be 14.90196. 1.25 pts deducted.
+End test of rgb_to_cmyk
+
+Max correctness points for cmyk_to_rgb: 15
+End test of cmyk_to_rgb
+
+Max correctness points for rgb_to_hsv: 15
+For RGB(201,201,201), V was 0.788 but should be 0.788235. 1 pt deducted.
+For RGB(205,201,121), H was 35.82 but should be 35.820895. 1 pt deducted.
+For RGB(205,201,121), S was 0.525 but should be 0.52549. 1 pt deducted.
+For RGB(255,25,121), H was 335.0 but should be 334.9565217. 1 pt deducted.
+For RGB(255,25,121), S was 0.902 but should be 0.9019607. 1 pt deducted.
+For RGB(146,255,146), S was 0.427 but should be 0.4274509. 1 pt deducted.
+For RGB(146,20,214), H was 279.0 but should be 278.9690721. 1 pt deducted.
+For RGB(146,20,214), S was 0.907 but should be 0.906542. 1 pt deducted.
+For RGB(146,20,214), V was 0.839 but should be 0.8392156. 1 pt deducted.
+End test of rgb_to_hsv
+
+Max correctness points for hsv_to_rgb: 18
+End test of hsv_to_rgb
+
+
+Start of testing of a3test.py
+
+Max correctness points for cmyk_to_rgb test cases: 2
+End cmyk_to_rgb test cases
+
+Max correctness points for rgb_to_hsv test cases: 5
+End rgb_to_hsv test cases
+
+Max correctness points for hsv_to_rgb test cases: 5
+End rgb_to_hsv test cases
+
+
+round            7 out of   7
+str5             7 out of   7
+to strings      10 out of  10
+rgb_to_cmyk  11.25 out of  15
+cmyk_to_rgb     15 out of  15
+rgb_to_hsv       6 out of  15
+hsv_to_rgb      18 out of  18
+Test Cases:     13 out of  13
+-----------------------------
+Total        87.25 out of 100
+Deductions:  2.75 points back
+Total           90 out of 100

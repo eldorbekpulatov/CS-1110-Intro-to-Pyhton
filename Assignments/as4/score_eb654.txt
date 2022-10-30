@@ -1,0 +1,80 @@
+Hi, this is Gee Hyun Kwon, looking at your Assignment A4.
+
+At the end of this document is the output of our testing program and a table indicating
+the points for each part.
+
+Hi! Overall your code looks fine, but I need to do one more deduction:
+
+Your triangle starts in the wrong orientation (-2).
+
+Other than that, most of it looks fine. Most of your problems are in enforcing preconditions and postconditions. Make sure to check for them again and again to see that they are restoring everything before returning!
+
+===========
+
+Start of testing of A4
+
+Max points for draw_triangle: 10
+  Deduction 1 point. Turtle final color is 'blue' but should be 'red'.
+End test of draw_triangle
+
+Max points for draw_hex: 10
+End test of draw_hex
+
+Max points for draw_spiral, draw_spiral_helper: 17
+Testing main draw_spiral function
+End test of main draw_spiral function
+Testing draw_spiral_helper function
+  Deduction 1 point. Turtle final speed is 0 but should be 1.
+  Deduction 1 point. Turtle color is 'red' but should be (red=3,green=4,blue=5,alpha=255).
+End test of draw_spiral_helper function
+
+Max points for multi_polygons, multi_polygons_helper: 17
+Testing main multi_polygons function
+End test of main multi_polygons function
+Testing multi_polygons_helper function
+End test of multi_polygons_helper function
+
+Max points for radiate, radiate_helper: 17
+Testing main radiate function
+End test of main radiate function
+Testing radiate_helper function
+  Deduction 1 point. Turtle drawing speed is 9 but should be 0.
+  Deduction 1 point. Turtle color is (hue=224.0,saturation=1.0,value=1.0) but should be (red=255,green=0,blue=255,alpha=255).
+End test of multi_polygons_helper function
+
+Max points for cantor, cantor_helper: 18
+Testing main radiate function
+End test of main cantor function
+Testing cantor_helper function
+  Deduction 2 points. The function does not enforce the precondition for x/y.
+End test of cantor_helper function
+
+Max points for sierpinski, sierpinski_helper: 18
+Testing main sierpinski function
+End test of main sierpinski function
+Testing sierpinski_helper function
+  Deduction 2 points. The function does not enforce the precondition for x/y.
+End test of sierpinski_helper function
+
+Max points for branches, branches_helper: 18
+Testing main branches function
+End test of main branches function
+Testing branches_helper function
+End test of tsquare_helper function
+
+
+1. draw_triangle               9  out of  10
+2. draw_hex                    10 out of  10
+3. Loops. Two of:              32 out of  34
+   A. spiral       (15)
+   B. polygons     (17)
+   C. radiating    (15)
+4. Recursion. One of:          16 out of  18
+   A. Cantor Stool (16)
+   B. Triangles    (16)
+5. 3-Branches Tree             18 out of  18
+6. Style and Other Issues      10 out of  10
+
+Total                         95  out of 100
+Deductions:
+Total                             out of 100
